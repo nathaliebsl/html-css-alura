@@ -1,18 +1,72 @@
 .produtos-header {
-    background: #BBBBBB;
-
+  background: #bbbbbb;
+  padding: 20px 0;
 }
 
-.produtos-nav-ul li {
-    display: inline;
-    margin-left: 15px;
+.produtos-header-div {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.produtos-nav-ul li > a {
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    
+.produtos-header-nav {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  right: 0;
+}
+
+.produtos-header-nav ul li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.produtos-header-nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.produtos-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.produtos-main li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+  max-width: 300px;
+  vertical-align: top;
+  margin: 1% 1%;
+  padding: 30px 10px;
+  box-sizing: border-box;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.produtos-main h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.produtos-main li > img {
+    height: 50%;
+    width: 50%;
+}
+
+.produto-descricao {
+  font-size: 20px;
+}
+
+.produto-preco {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
 }
