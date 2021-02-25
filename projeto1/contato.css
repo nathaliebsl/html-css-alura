@@ -1,0 +1,48 @@
+.contato-header {
+    background: #bbbbbb;
+    padding: 20px 0;
+  }
+  
+  .contato-header-div {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .contato-header-nav {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    right: 0;
+  }
+  
+  .contato-header-nav ul li {
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  
+  .contato-header-nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .contato-footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 30px 0; 
+  }
+  
+  .footer-logo {
+    height: 9%;
+    width: 9%;
+  }
+  
+  .copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  

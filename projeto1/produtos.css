@@ -51,12 +51,25 @@
   border-radius: 5px;
 }
 
+.produtos-main li:hover {
+  border-color: cornflowerblue;
+}
+
+.produtos-main li:active {
+  border-color: rgb(0, 139, 60);
+}
+
+.produtos-main li:hover h2 {
+    color: cornflowerblue;
+    font-size: 27px;
+}
+
 .produtos-main h2 {
   font-size: 25px;
   font-weight: bold;
 }
 
-.produtos-main li > img {
+.produtos-main li img {
     height: 50%;
     width: 50%;
 }
@@ -69,4 +82,21 @@
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.produtos-footer {
+  text-align: center;
+  background: url(bg.jpg);
+  padding: 30px 0; 
+}
+
+.footer-logo {
+  height: 9%;
+  width: 9%;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
 }
