@@ -1,48 +1,175 @@
 .contato-header {
-    background: #bbbbbb;
-    padding: 20px 0;
-  }
-  
-  .contato-header-div {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .contato-header-nav {
-    position: absolute;
-    top: 110px;
-    left: 50%;
-    right: 0;
-  }
-  
-  .contato-header-nav ul li {
-    display: inline;
-    margin: 0 0 0 15px;
-  }
-  
-  .contato-header-nav ul li a {
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-  }
+  background: #bbbbbb;
+  padding: 20px 0;
+}
 
-  .contato-footer {
-    text-align: center;
-    background: url(bg.jpg);
-    padding: 30px 0; 
-  }
+.contato-header-div {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contato-header-div h1 {
+  margin-left: 10px;
+}
+
+.contato-header-nav {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  right: 0;
+}
+
+.contato-header-nav ul li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.contato-header-nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contato-main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formulario {
+  position: relative;
+  margin: 40px 0;
+  margin-left: 10px;
+}
+
+.formulario label,
+legend {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.formulario textarea {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+
+  width: 40%;
+
+  border-radius: 5px;
+  border-style: groove;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+
+  width: 40%;
+
+  border-radius: 5px;
+  border-style: groove;
+}
+
+.horario {
+  margin-top: 20px;
+}
+
+.checkbox {
+  margin: 20px 20px;
+}
+
+.input-submit {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+
+  width: 40%;
+
+  background: rgb(76, 134, 136);
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 12px;
+
+  border-radius: 5px;
+  border: none;
+
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.input-submit:hover {
+  background: rgb(0, 73, 73);
+  transform: scale(1.1);
+}
+
+.tabela {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+
+  width: 300px;
+  height: 200px;
+
+  margin: 20px 40px;
   
-  .footer-logo {
-    height: 9%;
-    width: 9%;
-  }
+}
+
+.tabela caption {
+  font-size: 105x;
+  font-weight: 600;
+
+  padding: 5px 5px;
+
+  background: teal;
+  color: whitesmoke;
+
+  border: 2px solid;
+  border-bottom: none;
+  border-color: black;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tabela thead {
+  background:teal;
+  color:white;
+  font-weight: bold;
+}
+
+.tabela th {
+  text-align: center;
   
-  .copyright {
-    color: white;
-    font-size: 13px;
-    margin-top: 20px;
-  }
+  border: 2px solid black;
+  padding: 10px 15px; 
+
+}
+
+.tabela td {
+  text-align: center;
   
+  border: 2px solid black;
+  padding: 30px
+
+}
+
+.contato-footer {
+  text-align: center;
+  background: url(bg.jpg);
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+.footer-logo {
+  height: 9%;
+  width: 9%;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
