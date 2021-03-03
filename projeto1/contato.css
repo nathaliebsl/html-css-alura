@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .contato-header {
   background: #bbbbbb;
   padding: 20px 0;
@@ -114,7 +118,6 @@ legend {
   height: 200px;
 
   margin: 20px 40px;
-  
 }
 
 .tabela caption {
@@ -135,25 +138,23 @@ legend {
 }
 
 .tabela thead {
-  background:teal;
-  color:white;
+  background: teal;
+  color: white;
   font-weight: bold;
 }
 
 .tabela th {
   text-align: center;
-  
-  border: 2px solid black;
-  padding: 10px 15px; 
 
+  border: 2px solid black;
+  padding: 10px 15px;
 }
 
 .tabela td {
   text-align: center;
-  
-  border: 2px solid black;
-  padding: 30px
 
+  border: 2px solid black;
+  padding: 30px;
 }
 
 .contato-footer {
