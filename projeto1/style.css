@@ -4,10 +4,6 @@ body {
 }
 
 .header {
-  padding-left: 20px;
-}
-
-.header {
   background: #bbbbbb;
   padding: 20px 0;
 }
@@ -46,12 +42,6 @@ body {
   width: 100%;
 }
 
-.utensilios-img {
-  width: 120px;
-  float: left;
-  margin: 0 20px 20px 0;
-}
-
 .main-section {
   padding: 3em 0;
   width: 100%;
@@ -75,6 +65,12 @@ body {
 
 .main-title:after{
   content: " ] "
+}
+
+.utensilios-img {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
 p::first-line {
@@ -150,6 +146,13 @@ p::first-line {
 
 .beneficios-img {
   width: 60%;
+  opacity: 1;
+
+  transition: 400ms;
+}
+
+.beneficios-img:hover {
+  opacity: 0.8;
 }
 
 .beneficios-title {
@@ -180,4 +183,28 @@ p::first-line {
   color: white;
   font-size: 13px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-div, .main-section, .conteudo-beneficios, .mapa-map, .video {
+    width: auto;
+  }
+
+  .header-div > h1 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .header-div h1 > img {
+    width: 30%;
+  }
+
+  .header-nav {
+    position: static;
+    text-align: center;
+  }
+
+  .lista-beneficios, .beneficios-img {
+    width: 100%;
+  }
 }
